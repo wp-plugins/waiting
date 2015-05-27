@@ -1,4 +1,4 @@
-=== Waiting: Advanced Countdown ===
+=== Waiting ===
 Contributors: plugin.builders
 Tags: countdown, count, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin
 Donate link: http://plugin.builders/waiting/?d=donate
