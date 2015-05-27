@@ -22,6 +22,8 @@ Countdown to a date or a certain duration (e.g 60 seconds from page load).
 * Easy visual builder with live preview that generates shortcode that looks like `[waiting name="downtown"]`.
 * Infinite colors.
 * Set width, height, font size.
+* Hide /show labels.
+* Hide units with value '0'.
 * 600+ fonts.
 * Rounded corners.
 * Timezone: WordPress or GMT
