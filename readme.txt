@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-We didn't create yet another countdown plugin for no reason. This plugin automatically generates 3d styled countdowns and has some guaranteed distinctive features.
+We didn't create another countdown plugin for no reason. This plugin generates 3d styled countdowns and has guaranteed distinctive features.
  
 == Description ==
 Super easy to setup HTML5 and CSS3 countdowns.
