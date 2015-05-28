@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Others ask money to change colors ? Try this. It generates 3D countdowns and has some guaranteed distinctive features.
+Others don't allow to change colors ? Try this. It generates 3D countdowns and has some guaranteed distinctive features.
  
 == Description ==
 
