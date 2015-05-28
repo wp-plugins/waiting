@@ -1,6 +1,6 @@
-=== Waiting ===
+=== Waiting : Cool Countdowns ===
 Contributors: plugin.builders
-Tags: countdown, count, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin
+Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker
 Donate link: http://plugin.builders/waiting/?d=donate
 Requires at least: 3.0
 Tested up to: 4.2.2
@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Super easy countdowns with 3d styles and some distinctive features.
+We didn't create yet another countdown plugin for no reason. This plugin automatically generates 3d styled countdowns and has some guaranteed distinctive features.
  
 == Description ==
 Super easy to setup HTML5 and CSS3 countdowns.
