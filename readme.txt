@@ -8,9 +8,12 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-We didn't create another countdown plugin for no reason. This plugin generates 3d styled countdowns and has guaranteed distinctive features.
+Others ask money to change colors ? Try this. It generates 3D countdowns and has some guaranteed distinctive features.
  
 == Description ==
+
+We didn't create another countdown plugin for no reason.
+ 
 Super easy to setup HTML5 and CSS3 countdowns.
 
 Countdown to a date or a certain duration (e.g 60 seconds from page load).
