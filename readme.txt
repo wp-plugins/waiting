@@ -39,6 +39,7 @@ Countdown to a date or a certain duration (e.g 60 seconds from page load).
 
 * Loads files only if shortcode or widget is present. 
 * Feature suggestions are implemented quickly.
+* Translation-ready.
 
 **[Demo](http://plugin.builders/waiting-demo/?demo=wp.org)**
 
