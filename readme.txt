@@ -1,4 +1,4 @@
-=== Waiting : Cool Countdowns ===
+=== Waiting : One-click Countdowns ===
 Contributors: plugin.builders
 Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker
 Donate link: http://plugin.builders/waiting/?d=donate
@@ -14,7 +14,7 @@ Others don't allow to change colors ? Try this. It generates 3D / 2D countdowns 
 
 We didn't create another countdown plugin for no reason.
  
-Super easy to setup HTML5 and CSS3 countdowns.
+Super easy to setup HTML5 and CSS3 countdowns. Demos available in the settings page, you click on any of them and boom a new countdown.
 
 Countdown to a date or a certain duration (e.g 60 seconds from page load).
 
