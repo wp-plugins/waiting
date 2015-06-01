@@ -14,9 +14,9 @@ Others don't allow to change colors ? Try this. It generates 3D / 2D countdowns 
 
 We didn't create another countdown plugin for no reason.
  
-Super easy to setup HTML5 and CSS3 countdowns. Demos available in the settings page, you click on any of them and boom a new countdown.
+Demos available in the settings page, you click on any of them and boom, a new countdown.
 
-Countdown to a date or a certain duration (e.g 60 seconds from page load).
+Then enter a date or a certain duration to countdown to.(e.g YYYY/MM/DD or 60 seconds from page load).
 
 
 **Features:**
