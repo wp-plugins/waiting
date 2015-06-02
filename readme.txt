@@ -8,7 +8,7 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Others don't allow to change colors ? Try this. It generates 3D / 2D countdowns and has some guaranteed distinctive features.
+Click on demos and enter date or duration (e.g 60 secs from page load). 3D / 2D styles with custom colors / size / font.
  
 == Description ==
 
