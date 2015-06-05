@@ -16,7 +16,7 @@ We didn't create another countdown plugin for no reason.
  
 Demos available in the settings page, you click on any of them and boom, a new countdown.
 
-Then enter a date or a certain duration to countdown to.(e.g YYYY/MM/DD or 60 seconds from page load).
+Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 seconds from page load).
 
 
 **Features:**
