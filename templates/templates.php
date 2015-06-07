@@ -27,7 +27,6 @@
 			<li>Fast effective support (also for the free version :) ).</li>
 		</ul>
 		<a class="button button-primary" href="http://plugin.builders/products/waiting/?from=wp&v=0.1">Upgrade</a>
-		<a class="button" href="http://plugin.builders/waiting-demo/?from=wp&demo=premium&v=0.1">Demo</a>
 		<a class="button" href="mailto:enquiry@plugin.builders?subject=Waiting Enquiry">Pre-Purchase Question?</a>
 	</div>
 	<div id="pbc-feedback">
