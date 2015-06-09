@@ -79,6 +79,7 @@ class WPB_Waiting{
 	
 	
 	public function deploy(){}
+	public function loadJs(){}
 	
 	public function adminScript(){
 		wp_register_script('pbc_admin_settings', plugins_url('/js/admin'.self::$version_file.'.js', __FILE__), array('pbc_script'), null, 1);
@@ -101,9 +102,7 @@ class WPB_Waiting{
 		}
 		$this->menuIconStyle();
 	}
-	
-	public function loadJs(){}
-	
+		
 	public function menuIconStyle(){
 		?>	
 		<style>
