@@ -2,7 +2,7 @@
 Contributors: plugin.builders
 Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker
 Donate link: http://plugin.builders/waiting/?d=donate
-Requires at least: 3.0
+Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 0.1
 License: GPLv2 or later
