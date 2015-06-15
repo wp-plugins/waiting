@@ -176,16 +176,15 @@ function changeValue(keys, el){
 	var num = parseInt(keys[3]),
 		val = (el[0].type === 'checkbox') ? (el[0].checked ? 1 : 0) : (num ? parseInt(el.val()) : el.val()),
 		meta = keys[0].split('-');
-			
+					
 	if(meta[0] === 'type') PBC.down.data.style.type[3] = val;
 	else PBC.down.data.style.css[meta[0]][meta[1]] = num ? (val / 16) : val;
 	
 	if(keys[2] === 'border-radius') val += '%';
 	$('.pbc-live '+keys[1]).css(keys[2], val );
 	
-	if( (PBC.down.data.style.type[0] === 'canvas' && keys[2] === 'height')||
-		(meta[0] === 'type')||
-		(el[0].type === 'checkbox')
+	if( (PBC.down.data.style.type[0] === 'canvas' && keys[2] === 'height') ||
+		(meta[0] === 'type') || (el[0].type === 'checkbox')
 	) PBC.down.redraw();
 }
 
@@ -310,6 +309,8 @@ $('body').on('submit', '#pbc-form', function(e){
 	
 		PBC.downs[re[1]] = PBC.down.data;
 		PBC.cleanForm();
+	}, function(er){
+		console.log(er);
 	});
 });
 

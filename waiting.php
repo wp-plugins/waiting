@@ -1,22 +1,22 @@
 <?php
 /**
  * @package Waiting
- * @version 0.1
+ * @version 0.2
  */
 /*
 	Plugin Name: Waiting
-	Plugin URI: http://wordpress.org/plugins/waiting/
+	Plugin URI: http://plugin.builders/waiting/?from=plugins
 	Description: Easy countdowns.
 	Author: Plugin Builders
-	Author URI: http://plugin.builders/
-	Version: 0.1
+	Author URI: http://plugin.builders/?from=plugins
+	Version: 0.2
 	Text Domain: waiting
 	Domain Path: languages
 */
 
 class WPB_Waiting{
-	static $version = '0.1';
-	static $version_file = '-0.1';
+	static $version = '0.2';
+	static $version_file = '-0.2';
 	static $terms = array();
 
 	function __construct(){
@@ -79,7 +79,6 @@ class WPB_Waiting{
 	
 	
 	public function deploy(){}
-	public function loadJs(){}
 	
 	public function adminScript(){
 		wp_register_script('pbc_admin_settings', plugins_url('/js/admin'.self::$version_file.'.js', __FILE__), array('pbc_script'), null, 1);
@@ -102,7 +101,9 @@ class WPB_Waiting{
 		}
 		$this->menuIconStyle();
 	}
-		
+	
+	public function loadJs(){}
+	
 	public function menuIconStyle(){
 		?>	
 		<style>

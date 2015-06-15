@@ -337,6 +337,7 @@ jQuery(document).ready(function($){
 				style += PBCUtils.zoomCSS( [this.selector, this.style.type[3]] );
 		}
 		
+		style += (this.shellsel + '{ text-align : '+ (this.style.css.unit[7] || 'left') +' }');
 		style = '<style id="pbc-dynamic-style-'+this.id+'">'+ style + '</style>';
 		$('head').append(style);
 		this.em.trigger('pbc.style');

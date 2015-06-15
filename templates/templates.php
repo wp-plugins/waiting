@@ -296,6 +296,24 @@
 			</div>
 		</div>
 	</div>
+	
+	<div class="pbc-row">
+		<div class="pbc-row-label wpb-inline"><?php _e('Align', 'waiting'); ?></div>
+		<div class="pbc-row-field wpb-inline">
+			<div class="pbc-field wpb-inline">
+				<label><input type="radio" name="pbc_align" value="left" <%- (css.unit[7] === 'left') ? 'checked' : '' %>
+						data-keys="unit-7, .pbc-shell, text-align, 0"/><?php _e('Left', 'waiting'); ?></label>
+			</div>
+			<div class="pbc-field wpb-inline">
+				<label><input type="radio" name="pbc_align" value="center" <%- (css.unit[7] === 'center') ? 'checked' : '' %>
+						data-keys="unit-7, .pbc-shell, text-align, 0"/><?php _e('Center', 'waiting'); ?></label>
+			</div>
+			<div class="pbc-field wpb-inline">
+				<label><input type="radio" name="pbc_align" value="right" <%- (css.unit[7] === 'right') ? 'checked' : '' %>
+						data-keys="unit-7, .pbc-shell, text-align, 0"/><?php _e('Right', 'waiting'); ?></label>
+			</div>
+		</div>
+	</div>	
 </script>
 
 <script type="text/template" id="pbc-font-tmpl">

@@ -4,7 +4,7 @@ Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, w
 Donate link: http://plugin.builders/waiting/?d=donate
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,7 @@ Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 se
 * Easy visual builder with live preview that generates shortcode that looks like `[waiting name="downtown"]`.
 * Infinite colors.
 * Set width, height, font size.
+* Align: Left, Center or Right.
 * Hide /show labels.
 * Hide units with value '0'.
 * 600+ fonts.
