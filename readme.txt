@@ -42,7 +42,7 @@ Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 se
 * Feature suggestions are implemented quickly.
 * Translation-ready.
 
-**[Demo](http://plugin.builders/waiting-demo/?demo=wp)**
+**[Demo](http://plugin.builders/waiting-demo/?demo=wp.org)**
 
 **Support :** We'll respond to your issue within 3-18 hours.
 
