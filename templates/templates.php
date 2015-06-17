@@ -44,7 +44,7 @@
 
 <script type="text/template" id="pbc-countdown-date-tmpl">
 	<div class="pbc-field wpb-inline">
-		<input name="to_date" type="date" value="<%= oto.date %>" class="wpb-raw"/>
+		<input name="to_date" id="pbc-date-picker" value="<%= oto.date %>" class="wpb-raw"/>
 	</div>
 	<div class="pbc-field wpb-inline">
 		<input name="to_hours" type="number" min="0" max="23" value="<%= oto.h %>" class="wpb-raw"/>

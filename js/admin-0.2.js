@@ -107,6 +107,7 @@ PBC.down.adminit = function(down, id){
 	$('#pbc-editor').html( PBC.template('#pbc-countdown-tmpl')( {'down': down, 'id':id, 'units': PBC.units, 'oto': down.meta.occurence[0][1] } ))
 		.removeClass('wpb-hidden');
 			
+	$('#pbc-date-picker').datepicker();		
 	PBC.em.trigger('pbca.form');
 	PBC.down.redraw();
 		
@@ -278,7 +279,7 @@ function prepareForSaving( form ){
 	PBC.down.data.style.css.unit[3] = $('#pbc-fonts select').val();
 	
 	PBC.down.data.meta.insta = [PBC.down.data.meta.insta[0], raw.pbc_insta_session, raw.pbc_insta_session_days];
-	
+		
 	PBC.down.data.meta.occurence[0] = [
 		( PBC.down.data.meta.occurence[0][0] / 1000 ),
 		( parseInt(PBC.down.data.meta.insta[0]) ? raw.pbc_insta : (to/1000) )
@@ -296,7 +297,7 @@ function prepareForSaving( form ){
 $('body').on('submit', '#pbc-form', function(e){
 	e.preventDefault();
 	var is_new = prepareForSaving( this );
-	
+		
 	$('.pbc-form-save .button-primary').text('Saving...');
 	PBC.ajax({'action': 'pbc_save_downs', 'pbc_down': PBC.down.data}, function(re){
 		if(!re[1]) return false;
@@ -433,7 +434,7 @@ PBC.date = function(d, offset){
 	var d_o = {'y': d.getFullYear(), 'mo': (d.getMonth()+1), 'd': d.getDate(), 'h':d.getHours(), 'mi':d.getMinutes(), 's':d.getSeconds()};
 		d_o.mo = d_o.mo < 10 ? '0'+d_o.mo : d_o.mo;
 		d_o.d = d_o.d < 10 ? '0'+d_o.d : d_o.d;
-		d_o.date = d_o.y + '-' + d_o.mo + '-' + d_o.d;
+		d_o.date = d_o.mo + '/' + d_o.d + '/' + d_o.y;
 		d_o.time = d_o.h + ':' + d_o.mi + ':' +d_o.s;
 	return d_o;	
 };

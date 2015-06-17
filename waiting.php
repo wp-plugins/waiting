@@ -98,6 +98,9 @@ class WPB_Waiting{
 			wp_register_style('pbc_style', plugins_url('/css/style'.self::$version_file.'.css', __FILE__));
 			wp_enqueue_style('pbc_style');
 			wp_enqueue_style('wp-color-picker');
+			wp_enqueue_script('jquery-ui-datepicker');
+			wp_register_style('pbc-jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css');
+			wp_enqueue_style( 'pbc-jquery-ui' );
 		}
 		$this->menuIconStyle();
 	}
