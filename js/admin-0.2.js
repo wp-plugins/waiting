@@ -24,7 +24,7 @@ PBC.template = function(selector){
 
 PBC.ajax = function(data, success, error, type){
 	$.ajax({
-		url: 'admin-ajax.php',
+		url: ajaxurl,
 		type: type || 'POST',
 		data: data,
 		dataType: 'json',
@@ -453,12 +453,16 @@ function pbcFontLink(){
 PBC.downs.init = function(){ 
 	PBC.ajax({'action': 'pbc_get_downs'}, function(re){
 		PBC.downs.deploy(re);
-	});
+	}, function(er){
+		console.log(er);
+	}, 'GET');
 	
 	PBC.ajax({'action': 'pbc_get_fonts'}, function(re){
 		PBC.fonts = re;
 		if(PBC.down.down) $('#pbc-fonts').html( PBC.fontTemplate() );
-	}, function(er){}, 'GET');
+	}, function(er){
+		console.log(er);
+	}, 'GET');
 		
 	$('#pbc-wrapper').append(PBC.template('#pbc-main-tmpl'));
 	$('body').append('<div id="pbc-live" class="pbc-live pbc-inline-down pbc-live-sticky"></div>');
