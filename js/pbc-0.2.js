@@ -162,7 +162,7 @@ jQuery(document).ready(function($){
 	PBCUtils.em.on('pbc.defined', PBCUtils.filterCovers);
 		
 	PBCUtils.insta = function(meta){
-		if(parseInt(insta[1])) return this.timeFromCookie(meta);
+		if(parseInt(meta.insta[1])) return this.timeFromCookie(meta);
 		return [+new Date, +new Date + meta.to[1]];
 	}
 		
