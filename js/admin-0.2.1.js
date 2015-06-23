@@ -255,6 +255,7 @@ function changeToMode(){
 		PBC.down.data.meta.to = [+new Date, PBC.dummy.meta.occurence[0][1]];
 		$('#cd_to div[data-cd=insta]').empty();
 		$('#cd_to div[data-cd=to]').html( PBC.dateTemplate( PBC.down.data.meta.to[1] ) );
+		$('#pbc-date-picker').datepicker();		
 	}
 	$('#cd_to div[data-cd='+(this.value)+']').removeClass('wpb-force-hide');
 	$('#cd_to div[data-cd='+(this.value === 'insta' ? 'to' : 'insta')+']').addClass('wpb-force-hide');
