@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Waiting
- * @version 0.2
+ * @version 0.2.1
  */
 /*
 	Plugin Name: Waiting
@@ -9,14 +9,14 @@
 	Description: Easy countdowns.
 	Author: Plugin Builders
 	Author URI: http://plugin.builders/?from=plugins
-	Version: 0.2
+	Version: 0.2.1
 	Text Domain: waiting
 	Domain Path: languages
 */
 
 class WPB_Waiting{
-	static $version = '0.2';
-	static $version_file = '-0.2';
+	static $version = '0.2.1';
+	static $version_file = '-0.2.1';
 	static $terms = array();
 
 	function __construct(){
