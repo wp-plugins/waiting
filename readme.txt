@@ -1,6 +1,6 @@
 === Waiting : One-click Countdowns ===
 Contributors: plugin.builders
-Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker
+Tags: countdown, count down, free countdown, pro countdown, canvas, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker, banner, banner style, banner offer, advanced, free, beautiful, easy, custom, discount, discounts, product, launch, redirect
 Donate link: http://plugin.builders/waiting/?d=donate
 Requires at least: 3.5
 Tested up to: 4.2.2
