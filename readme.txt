@@ -21,6 +21,7 @@ Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 se
 
 **Features:**
 
+* Smart defaults.
 * Unlimited no. of countdowns.
 * Easy visual builder with live preview that generates shortcode that looks like `[waiting name="downtown"]`.
 * Infinite colors.
