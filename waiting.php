@@ -348,7 +348,7 @@ class WPB_Waiting{
 		$font_url = 'http://fonts.googleapis.com/css?family='.$down['style']['css']['unit'][3];
 				
 		$html = $down['html']; unset($down['html']);
-		return '<div class="pbc-cover wpb-inline" data-pbc-setup="" data-countdown="'. htmlentities( json_encode($down) ) .'">'.
+		return '<div class="pbc-cover wpb-inline" dir="ltr" data-pbc-setup="" data-countdown="'. htmlentities( json_encode($down) ) .'">'.
 			self::rawDowntexts($html)
 		.'</div>
 		<script>
