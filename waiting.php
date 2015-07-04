@@ -38,7 +38,6 @@ class WPB_Waiting{
 		add_action('wp_ajax_pbc_get_fonts', array($this, 'getFonts'));
 		
 		add_action('pbc_admin_script', array($this, 'adminScript'));
-		
 		add_shortcode('waiting', array($this, 'shortcode') );
 	}
 	
