@@ -1,10 +1,10 @@
 === Waiting : One-click Countdowns ===
 Contributors: plugin.builders
-Tags: countdown, count down, free countdown, pro countdown, canvas, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker, banner, banner style, banner offer, advanced, free, beautiful, easy, custom, discount, discounts, product, launch, redirect
+Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, widget, shortcode, widgets, css3, 3d, html5, animation, admin, event, event countdown, clock, birthday, coming, coming soon, soon, ready, preview, live, ticker
 Donate link: http://plugin.builders/waiting/?d=donate
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,6 @@ Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 se
 
 **Features:**
 
-* Smart defaults.
 * Unlimited no. of countdowns.
 * Easy visual builder with live preview that generates shortcode that looks like `[waiting name="downtown"]`.
 * Infinite colors.

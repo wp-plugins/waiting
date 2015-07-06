@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Waiting
- * @version 0.2.1
+ * @version 0.2.2
  */
 /*
 	Plugin Name: Waiting
@@ -9,14 +9,14 @@
 	Description: Easy countdowns.
 	Author: Plugin Builders
 	Author URI: http://plugin.builders/?from=plugins
-	Version: 0.2.1
+	Version: 0.2.2
 	Text Domain: waiting
 	Domain Path: languages
 */
 
 class WPB_Waiting{
-	static $version = '0.2.1';
-	static $version_file = '-0.2.1';
+	static $version = '0.2.2';
+	static $version_file = '-0.2.2';
 	static $terms = array();
 
 	function __construct(){
@@ -38,6 +38,7 @@ class WPB_Waiting{
 		add_action('wp_ajax_pbc_get_fonts', array($this, 'getFonts'));
 		
 		add_action('pbc_admin_script', array($this, 'adminScript'));
+		
 		add_shortcode('waiting', array($this, 'shortcode') );
 	}
 	
@@ -211,10 +212,15 @@ class WPB_Waiting{
 		wp_send_json($re);
 	}
 		
+	public static function getTimestampWithFallback( $time ){
+		return method_exists('DateTime', 'getTimestamp') ? 
+             $time->getTimestamp() : $time->format('U');
+	}
+		
 	public static function countdownTo( $down ){
 		if($down['meta']['insta'][0]){
 			$now = new DateTime('NOW');
-			$now = $now->getTimestamp();
+			$now = self::getTimestampWithFallback( $now );
 			return array($now*1000, $down['meta']['occurence'][0][1]*1000);
 		}
 				
@@ -222,12 +228,12 @@ class WPB_Waiting{
 						
 		$from = round($down['meta']['occurence'][0][0]);
 		$from = new DateTime( '@'.$from );
-		$from = $from->getTimestamp();
+		$from = self::getTimestampWithFallback( $from );
 		$from -= $ofs;
 		
 		$to = $down['meta']['occurence'][0][1];		
 		$to = new DateTime( '@'.$to );
-		$to = $to->getTimestamp();
+		$to = self::getTimestampWithFallback( $to );
 		$to -= $ofs;
 		
 		return array($from*1000, $to*1000);
@@ -347,7 +353,7 @@ class WPB_Waiting{
 		$font_url = 'http://fonts.googleapis.com/css?family='.$down['style']['css']['unit'][3];
 				
 		$html = $down['html']; unset($down['html']);
-		return '<div class="pbc-cover wpb-inline" dir="ltr" data-pbc-setup="" data-countdown="'. htmlentities( json_encode($down) ) .'">'.
+		return '<div class="pbc-cover wpb-inline" data-pbc-setup="" data-countdown="'. htmlentities( json_encode($down) ) .'">'.
 			self::rawDowntexts($html)
 		.'</div>
 		<script>
