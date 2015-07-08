@@ -6,7 +6,7 @@
 /*
 	Plugin Name: Waiting
 	Plugin URI: http://plugin.builders/waiting/?from=plugins
-	Description: Easy countdowns.
+	Description: One-click countdowns.
 	Author: Plugin Builders
 	Author URI: http://plugin.builders/?from=plugins
 	Version: 0.2.2
