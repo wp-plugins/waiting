@@ -26,7 +26,7 @@
 			<li>Product offer style (sticky on top or bottom of the screen.)</li>
 			<li>Fast effective support (also for the free version :) ).</li>
 		</ul>
-		<a class="button button-primary" href="http://plugin.builders/products/waiting/?from=wp&v=0.2.2">Upgrade</a>
+		<a class="button button-primary" href="http://plugin.builders/products/waiting/?from=wp&v=0.1">Upgrade</a>
 		<a class="button" href="mailto:enquiry@plugin.builders?subject=Waiting Enquiry">Pre-Purchase Question?</a>
 	</div>
 	<div id="pbc-feedback">
@@ -155,6 +155,13 @@
 					<div class="pbc-option-field">
 						<input type="text" value="<%- fin[0] === 'event' ? fin[1][0] : '' %>" placeholder="<?php _e('selector', 'waiting'); ?>"/>
 						<input type="text" value="<%- fin[0] === 'event' ? fin[1][1] : '' %>" placeholder="<?php _e('event', 'waiting'); ?>"/>
+					</div>
+				</div>
+				<div class="pbc-option" data-name="style">
+					<div class="pbc-option-label"><?php _e('Change CSS styles', 'waiting'); ?></div>
+					<div class="pbc-option-field">
+						<input type="text" value="<%- fin[0] === 'style' ? fin[1][0] : '' %>" placeholder="<?php _e('selector', 'waiting'); ?>"/>
+						<input type="text" value="<%- fin[0] === 'style' ? fin[1][1] : '' %>" placeholder="<?php _e('styles', 'waiting'); ?>"/>
 					</div>
 				</div>
 			</div>

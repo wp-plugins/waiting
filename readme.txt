@@ -4,7 +4,7 @@ Tags: countdown, countdowns, animation, count, counter, time, timer, scarcity, w
 Donate link: http://plugin.builders/waiting/?d=donate
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.2.2
+Stable tag: 0.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,10 +31,10 @@ Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 se
 * 600+ fonts.
 * Rounded corners.
 * Timezone: WordPress or GMT
-* On finish options: Nothing, Hide countdown, Redirect, trigger DOM events (click, hover etc).
+* On finish options: Nothing, Hide countdown, Redirect, trigger DOM events (click, hover etc), change CSS styles.
 * Widget.
 * Smooooth transitions.
-* Beautifully responsive (IT'S 2015).
+* Smartly responsive.
 * Quick translation form for time units.
 * Oh, and 3D cubical styles too.
 

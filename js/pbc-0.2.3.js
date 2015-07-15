@@ -405,10 +405,21 @@ jQuery(document).ready(function($){
 		switch(this.meta.onfinish[0]){
 			case 'redirect':
 				window.location = this.meta.onfinish[1][0];
+				break;
 			case 'hide':
-				this.shell.addClass('pb-hidden');
+				this.shell.addClass('wpb-force-hide');
+				break;
 			case 'event':
 				$(this.meta.onfinish[1][0]).trigger(this.meta.onfinish[1][1]);
+				break;
+			case 'style':
+				var css = {};
+				this.meta.onfinish[1][1].split(',').forEach(function(styl){
+					styl = styl.trim().split(':');
+					css[styl[0].trim()] = styl[1].trim();
+				});
+				$(this.meta.onfinish[1][0]).css( css );
+				break;
 			default:
 				this.em.trigger('pbc.finish');
 		}
