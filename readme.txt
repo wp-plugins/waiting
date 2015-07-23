@@ -8,7 +8,7 @@ Stable tag: 0.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Click on demos and enter date or duration (e.g 60 secs from page load). 3D / 2D styles with custom colors / size / font.
+Click on demos and enter date or duration (i.e YYYY/MM/DD or 60 secs from page load). 3D / 2D styles with custom colors / size / font for every element.
  
 == Description ==
 
