@@ -123,8 +123,6 @@ canvas.pbc-clips{
 
 /*   2d  */
 
-.pbc-canvas-unit{
-	display:inline-block;
-}
+.pbc-canvas-unit{ display:inline-block; }
 
 .pbc-cover{border:0px solid #000;width:100%;display:block;}
