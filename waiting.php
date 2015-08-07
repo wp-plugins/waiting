@@ -322,9 +322,7 @@ class WPB_Waiting{
 	}
 		
 	public function translateTerms(){
-		self::$terms['fui'] = array(
-		
-		);
+		self::$terms['fui'] = array();
 		
 		$units = get_option('pbc_unit_terms');
 		self::$terms['units'] = $units ? $units : array(
