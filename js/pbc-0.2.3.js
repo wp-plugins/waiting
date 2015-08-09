@@ -443,7 +443,6 @@ jQuery(document).ready(function($){
 	};
 	
 	PBCUtils.em.trigger('pbc.defined');
-	
 	PBCUtils.lang = PBCUtils.lang || pbc_translated_terms;
 		
 	PBCUtils.counter = 0;
@@ -458,7 +457,6 @@ jQuery(document).ready(function($){
 	};
 	
 	PBCUtils.run( $('.pbc-cover').eq(0) );
-	
 	PBCUtils.em.trigger('pbc.run');
 	
 });
