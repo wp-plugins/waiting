@@ -351,7 +351,6 @@ PBC.formError = function(code){
 	return false;
 };
 
-
 PBC.lang.unit_labels = {
 	'days': "Days",
 	'hours': "Hours",
@@ -361,7 +360,6 @@ PBC.lang.unit_labels = {
 	'weeks': "Weeks",
 	'years': "Years"
 };
-
 
 PBC.lang.show = function(){
 	$('#pbc-wrapper').append( PBC.template('#pbc-lang-form-tmpl')(PBCUtils.lang) );
