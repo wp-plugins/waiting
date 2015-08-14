@@ -14,7 +14,7 @@ Click on demos and enter date or duration (i.e YYYY/MM/DD or 60 secs from page l
 
 We didn't create another countdown plugin for no reason.
  
-Demos available while creating, you click on any of them and boom, a new countdown.
+Demos available while creating / editing, you click on any of them and boom, a new countdown.
 
 Then enter a date or a certain duration to countdown to.(i.e YYYY/MM/DD or 60 seconds from page load).
 
